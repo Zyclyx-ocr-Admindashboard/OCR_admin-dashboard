@@ -28,14 +28,6 @@ import{AddholidayComponent} from '../../addholiday/addholiday.component';
 import{FileuploadComponent} from '../../fileupload/fileupload.component';
 import{ ViewemployeelistComponent} from '../../viewemployeelist/viewemployeelist.component';
 import{DetailsComponent} from '../../details/details.component';
-import {
-  MatButtonModule,
-  MatInputModule,
-  MatRippleModule,
-  MatFormFieldModule,
-  MatTooltipModule,
-  MatSelectModule
-} from '@angular/material';
 import { from } from 'rxjs';
 import { HomepageComponent } from 'app/homepage/homepage.component';
 @NgModule({
@@ -43,14 +35,7 @@ import { HomepageComponent } from 'app/homepage/homepage.component';
     CommonModule,
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
-    ReactiveFormsModule,
-    MatButtonModule,
-    MatRippleModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatSelectModule,
-    MatTooltipModule,
-    
+    ReactiveFormsModule,    
   ],
   declarations: [
  

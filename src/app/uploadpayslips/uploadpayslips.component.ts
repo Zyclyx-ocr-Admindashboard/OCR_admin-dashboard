@@ -3,7 +3,6 @@ import { Router } from '@angular/router';
 import { AuthService } from '../auth.service';
 import { HttpClient } from '@angular/common/http';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { DilogeComponent } from 'app/diloge/diloge.component';
 
 @Component({
   selector: 'app-uploadpayslips',
@@ -107,12 +106,6 @@ export class UploadpayslipsComponent implements OnInit {
     )
   }
   openDialog(): void {
-    const dialogRef = this.dialog.open(DilogeComponent, {
-   
-    });
   
-    dialogRef.afterClosed().subscribe(result => {
-     
-    });
   }
 }
