@@ -1,0 +1,18 @@
+.fa,.fas{
+    font-size: 15px;
+}
+.nav{
+   /* background: #3C4858; */
+   background: #fff;
+   
+}
+li:hover{
+  background: hsl(224, 25%, 54%);
+    
+}
+.barIcon{
+  
+  font-size: 19px;
+  color: black;
+  margin-left: 48px;
+}
